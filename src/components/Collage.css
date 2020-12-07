@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+.collage {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    -webkit-mask-image: linear-gradient(to right, transparent 20%, black 100%);
+    mask-image: linear-gradient(to right, transparent 20%, black 100%);
+    height: 528px;
+    overflow: hidden;
+}
+
+.collage__title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 8em;
+    font-weight: 200;
+    position: absolute;
+    left: 5%;
+    z-index: 1;
+}
+
+.collage__title span {
+    margin-left: 40%;
+}
+.collage__title span:nth-of-type(2) {
+    margin-left: 80%;
+}
+
+.collage__image {
+    height: 25%;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 780px) {
+    .collage {
+        -webkit-mask-image: linear-gradient(to bottom, transparent 40%, black 100%);
+        mask-image: linear-gradient(to bottom, transparent 40%, black 100%);
+        flex-direction: column-reverse;
+    }
+
+    .collage__title {
+        left:0;
+        top: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .collage__title span,
+    .collage__title span:nth-of-type(2) {
+        margin: 0;
+    }
+
+    .collage__image {
+        width: 25%;
+        height: auto;
+    }
+}
