@@ -4,12 +4,21 @@
     margin: 0;
 }
 
-/* Fluid Typography for font size based on 
-https://css-tricks.com/snippets/css/fluid-typography/ */
 html {
     font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
+/* || Button Styles */
+/* .btn {
+
+} */
+
+
+/* || Media Queries */
+
+/* Fluid Typography for font size based on 
+https://css-tricks.com/snippets/css/fluid-typography/ */
 @media screen and (min-width: 480px) {
     /* The calculation is font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width]))); */
     html {

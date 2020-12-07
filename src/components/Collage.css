@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
-
+/* || COLLAGE STYLES */
 .collage {
     display: flex;
     flex-direction: row-reverse;
@@ -32,6 +31,8 @@
     margin-bottom: 5px;
 }
 
+/* || MEDIA QUERIES */
+
 @media (max-width: 780px) {
     .collage {
         -webkit-mask-image: linear-gradient(to bottom, transparent 40%, black 100%);
@@ -40,8 +41,10 @@
     }
 
     .collage__title {
+        font-size: 5em;
         left:0;
         top: 0;
+        margin-top: 10%;
         text-align: center;
         width: 100%;
     }
