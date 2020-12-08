@@ -23,7 +23,6 @@
 
 .main-nav__item.btn {
     padding: 9px 5px;
-    border: 1px solid red;
 }
 
 .main-nav__brand a:hover,
@@ -33,43 +32,135 @@
     color: orangered;
 }
 
+/* || Triple Arrow Logo Style */
+
+.main-nav__logo {
+    position: relative;
+}
+
+.main-nav__logo i:nth-of-type(1) {
+    position: relative;
+    bottom: 5px;
+    left: 0;
+}
+
+.main-nav__logo i:nth-of-type(2) {
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+.main-nav__logo i:nth-of-type(3) {
+    position: relative;
+    bottom: 5px;
+    right: 10px;
+}
+
+.toggle-btn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.toggle-btn:focus {
+    outline: none;
+}
+
 /* || MEDIA QUERIES */
 
 /* Mobile Menu */
-@media screen and (max-width: 780px) {
+.main-nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav__link {
+    display: block;
+    padding: 15px 5px;
+}
+
+.main-nav__brand {
+    order: 0;
+}
+
+.toggle {
+    order: 1;
+    font-size: 20px;
+}
+
+.main-nav__item .btn {
+    order: 2;
+}
+
+.main-nav__item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.active .main-nav__item {
+    display: block;
+}
+
+.btn.secondary {
+    border-bottom: 1px solid #444;
+}
+
+@media all and (min-width: 960px) {
     .main-nav__menu {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
+        align-items: flex-end;
+        flex-wrap: nowrap;
+        background: none;
     }
 
-    .main-nav__link {
-        display: block;
-        padding: 15px 5px;
-    }
-
-    .toggle {
-        order: 1;
-        font-size: 20px;
-    }
-
-    .main-nav__item .btn {
-        order: 2;
+    .main-nav__brand {
+        flex: 1;
+        width: 10vw;
+        order: 0;
     }
 
     .main-nav__item {
-        order: 3;
-        width: 100%;
-        text-align: center;
-        display: none;
+        display: block;
+        order: 2;
+        position: relative;
+        width: auto;
     }
 
-    .active .main-nav__item {
+    .main-nav__item.btn a {
+        background-color: #0080ff;
+        border: 1px royalblue solid;
         display: block;
+        margin: 5px 0;
+        order: 1;
+        padding: 10px 15px;
+        width: auto;
+    }
+
+    .btn.secondary a {
+        background: transparent;
+        border: 1px #0080ff solid;
     }
 
     .btn.secondary {
-        border-bottom: 1px solid #444;
+        border-bottom: none;
+    }
+
+    .btn:not(.secondary) a:hover,
+    .btn:not(.secondary) a:active {
+        background: royalblue;
+        border-color: darkblue;
+        color: white;
+    }
+
+    .btn.secondary a:hover,
+    .btn.secondary a:active {
+        border-color:orangered;
+        color: orangered;
+    }
+
+    .toggle {
+        display: none;
     }
 }

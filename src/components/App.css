@@ -9,6 +9,10 @@ html {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+main {
+    position: relative;
+}
+
 /* || Button Styles */
 /* .btn {
 
