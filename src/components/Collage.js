@@ -6,8 +6,8 @@ import Image from "./Image";
 const Collage = () => {
     const [images, setImages] = useState([]);
 
-    // Request image objects from API and set image array on receipt
     useEffect(() => {
+        // Request image objects from API and set image array on receipt
         const getImages = async () => {
             const { data } = await axios.get("https://api.unsplash.com/photos/random", {
                 params: {

@@ -29,10 +29,10 @@
 .main-nav__brand a:active,
 .main-nav__item:not(.btn) a:hover,
 .main-nav__item a:active {
-    color: orangered;
+    color: var(--color-secondary-accent);
 }
 
-/* || Triple Arrow Logo Style */
+/* || Triple Arrow Logo Styles */
 
 .main-nav__logo {
     position: relative;
@@ -48,6 +48,7 @@
     position: relative;
     top: 5px;
     right: 5px;
+    color: var(--color-secondary);
 }
 
 .main-nav__logo i:nth-of-type(3) {
@@ -64,8 +65,6 @@
 .toggle-btn:focus {
     outline: none;
 }
-
-/* || MEDIA QUERIES */
 
 /* Mobile Menu */
 .main-nav__menu {
@@ -108,6 +107,7 @@
     border-bottom: 1px solid #444;
 }
 
+/* || MEDIA QUERIES */
 @media all and (min-width: 960px) {
     .main-nav__menu {
         align-items: flex-end;
@@ -129,8 +129,9 @@
     }
 
     .main-nav__item.btn a {
-        background-color: #0080ff;
-        border: 1px royalblue solid;
+        background-color: var(--color-primary);
+        border: 1px var(--color-primary-accent) solid;
+        color: white;
         display: block;
         margin: 5px 0;
         order: 1;
@@ -140,7 +141,8 @@
 
     .btn.secondary a {
         background: transparent;
-        border: 1px #0080ff solid;
+        border: 1px var(--color-secondary) solid;
+        color: var(--color-secondary);
     }
 
     .btn.secondary {
@@ -149,15 +151,13 @@
 
     .btn:not(.secondary) a:hover,
     .btn:not(.secondary) a:active {
-        background: royalblue;
-        border-color: darkblue;
-        color: white;
+        background: var(--color-primary-accent);
     }
 
     .btn.secondary a:hover,
     .btn.secondary a:active {
-        border-color:orangered;
-        color: orangered;
+        border-color: var(--color-secondary-accent);
+        color: var(--color-secondary-accent);
     }
 
     .toggle {

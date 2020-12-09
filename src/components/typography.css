@@ -1,0 +1,20 @@
+:root {
+    /* CSS HEX */
+    --color-primary: #0795edff;
+    --color-primary-accent: #74c7fbff;
+    --color-secondary: #f63c28ff;
+    --color-secondary-accent: #f87060ff;
+    --color-tertiary: #444545ff;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 1rem;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: normal;
+    line-height: inherit;
+    color: var(--color-tertiary);
+}
