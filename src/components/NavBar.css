@@ -128,7 +128,7 @@
         width: auto;
     }
 
-    .main-nav__item.btn a {
+    .main-nav__item.btn button {
         background-color: var(--color-primary);
         border: 1px var(--color-primary-accent) solid;
         color: white;
@@ -139,7 +139,7 @@
         width: auto;
     }
 
-    .btn.secondary a {
+    .btn.secondary button {
         background: transparent;
         border: 1px var(--color-secondary) solid;
         color: var(--color-secondary);

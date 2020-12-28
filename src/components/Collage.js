@@ -15,7 +15,7 @@ const Collage = () => {
                     orientation: "landscape"
                 },
                 headers: {
-                    Authorization: "Client-ID C-Wt2vPcFiOGgLrL_7sM8Ho4A-QfBU0PwBMRHMQyIO8"
+                    Authorization: "Client-ID MJ6WAgZrTAAwQLC5-Bj4XY_336JFzp7EIsWrRAQzwag"
                 }
             });
             setImages(data);

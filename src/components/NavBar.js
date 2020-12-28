@@ -29,8 +29,9 @@ const NavBar = (props) => {
                         </div>
                     </a></li>
                     {navBarLinks}
-                    <li className="main-nav__item btn"><a href="login.html" className="main-nav__link">Login</a></li>
-                    <li className="main-nav__item btn secondary"><a href="signup.html" className="main-nav__link">Sign Up</a></li>
+                    {/* Buttons here for development, will adapt later */}
+                    <li className="main-nav__item btn"><button className="main-nav__link">Login</button></li>
+                    <li className="main-nav__item btn secondary"><button className="main-nav__link">Sign Up</button></li>
                     <li className="toggle" onClick={() => toggleMenu()}><button className="toggle-btn"><i className={`fas ${toggle ? "fa-bars" : "fa-times"} fa-lg`}></i></button></li>
                 </ul>
             </nav>
