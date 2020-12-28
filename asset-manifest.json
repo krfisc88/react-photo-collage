@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/triple-arrow-homepage/static/css/main.19653742.chunk.css",
+    "main.js": "/triple-arrow-homepage/static/js/main.9c4c104d.chunk.js",
+    "main.js.map": "/triple-arrow-homepage/static/js/main.9c4c104d.chunk.js.map",
+    "runtime-main.js": "/triple-arrow-homepage/static/js/runtime-main.1d62670c.js",
+    "runtime-main.js.map": "/triple-arrow-homepage/static/js/runtime-main.1d62670c.js.map",
+    "static/css/2.679831fc.chunk.css": "/triple-arrow-homepage/static/css/2.679831fc.chunk.css",
+    "static/js/2.c1db7dac.chunk.js": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js",
+    "static/js/2.c1db7dac.chunk.js.map": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js.map",
+    "index.html": "/triple-arrow-homepage/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/triple-arrow-homepage/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.19653742.chunk.css.map": "/triple-arrow-homepage/static/css/main.19653742.chunk.css.map",
+    "static/js/2.c1db7dac.chunk.js.LICENSE.txt": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d62670c.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.c1db7dac.chunk.js",
+    "static/css/main.19653742.chunk.css",
+    "static/js/main.9c4c104d.chunk.js"
+  ]
+}
