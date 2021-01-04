@@ -21,13 +21,11 @@ const NavBar = (props) => {
         <header className="main-header">
             <nav className="main-nav">
                 <ul className={`main-nav__menu ${toggle ? "" : "active"}`}>
-                    <li className="main-nav__brand"><a href="index.html" className="main-nav__link">
+                    <li className="main-nav__brand">
                         <div className="main-nav__logo">
-                            <i className="fas fa-arrow-right"></i>
-                            <i className="fas fa-arrow-right"></i>
-                            <i className="fas fa-arrow-right"></i>
+                            <a href="index.html" className="main-nav__link"><i className="fas fa-camera-retro"></i></a>
                         </div>
-                    </a></li>
+                   </li>
                     {navBarLinks}
                     {/* Buttons here for development, will adapt later */}
                     <li className="main-nav__item btn"><button className="main-nav__link">Login</button></li>

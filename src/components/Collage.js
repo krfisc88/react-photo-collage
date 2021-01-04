@@ -25,7 +25,7 @@ const Collage = () => {
 
     return (
         <>
-            <h1 className="collage__title">Triple <br /><span>Arrow</span> <br /><span>Co.</span></h1>
+            <h1 className="collage__title">Some <br /><span>Photo</span> <br /><span>Co.</span></h1>
             <div className="collage">
                 {images.map(image => {
                     return <Image key={image.id} image={image} />
