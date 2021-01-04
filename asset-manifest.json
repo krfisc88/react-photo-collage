@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/triple-arrow-homepage/static/css/main.19653742.chunk.css",
-    "main.js": "/triple-arrow-homepage/static/js/main.9c4c104d.chunk.js",
-    "main.js.map": "/triple-arrow-homepage/static/js/main.9c4c104d.chunk.js.map",
-    "runtime-main.js": "/triple-arrow-homepage/static/js/runtime-main.1d62670c.js",
-    "runtime-main.js.map": "/triple-arrow-homepage/static/js/runtime-main.1d62670c.js.map",
-    "static/css/2.679831fc.chunk.css": "/triple-arrow-homepage/static/css/2.679831fc.chunk.css",
-    "static/js/2.c1db7dac.chunk.js": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js",
-    "static/js/2.c1db7dac.chunk.js.map": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js.map",
-    "index.html": "/triple-arrow-homepage/index.html",
-    "static/css/2.679831fc.chunk.css.map": "/triple-arrow-homepage/static/css/2.679831fc.chunk.css.map",
-    "static/css/main.19653742.chunk.css.map": "/triple-arrow-homepage/static/css/main.19653742.chunk.css.map",
-    "static/js/2.c1db7dac.chunk.js.LICENSE.txt": "/triple-arrow-homepage/static/js/2.c1db7dac.chunk.js.LICENSE.txt"
+    "main.css": "/react-photo-collage/static/css/main.c7ca9434.chunk.css",
+    "main.js": "/react-photo-collage/static/js/main.1957798f.chunk.js",
+    "main.js.map": "/react-photo-collage/static/js/main.1957798f.chunk.js.map",
+    "runtime-main.js": "/react-photo-collage/static/js/runtime-main.ea6e69a5.js",
+    "runtime-main.js.map": "/react-photo-collage/static/js/runtime-main.ea6e69a5.js.map",
+    "static/css/2.679831fc.chunk.css": "/react-photo-collage/static/css/2.679831fc.chunk.css",
+    "static/js/2.aeb9e246.chunk.js": "/react-photo-collage/static/js/2.aeb9e246.chunk.js",
+    "static/js/2.aeb9e246.chunk.js.map": "/react-photo-collage/static/js/2.aeb9e246.chunk.js.map",
+    "index.html": "/react-photo-collage/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/react-photo-collage/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.c7ca9434.chunk.css.map": "/react-photo-collage/static/css/main.c7ca9434.chunk.css.map",
+    "static/js/2.aeb9e246.chunk.js.LICENSE.txt": "/react-photo-collage/static/js/2.aeb9e246.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.1d62670c.js",
+    "static/js/runtime-main.ea6e69a5.js",
     "static/css/2.679831fc.chunk.css",
-    "static/js/2.c1db7dac.chunk.js",
-    "static/css/main.19653742.chunk.css",
-    "static/js/main.9c4c104d.chunk.js"
+    "static/js/2.aeb9e246.chunk.js",
+    "static/css/main.c7ca9434.chunk.css",
+    "static/js/main.1957798f.chunk.js"
   ]
 }
